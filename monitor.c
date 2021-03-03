@@ -23,7 +23,7 @@ int isBatterySocHealthy(float stOfCharge)
 
 int isBatteryChargingOK(float current, float voltage)
 {
-    if(chargeRate > OVER_CURRENT) 
+    if(current > OVER_CURRENT) 
     {
         printf("Batter not under Charge Rate !\n");
         return 0;
