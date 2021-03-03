@@ -25,7 +25,7 @@ int isBatteryChargingOK(float current, float voltage)
         printf("Voltage fluctuated!\n");
         return 0;
     }
-    else { //NOP }
+    else { /*NOP */ }
     return 1;
 }
 
